@@ -1,0 +1,63 @@
+# Field Shift – Interactive Rotation Scenario Explorer
+
+**NASA Space Apps Challenge 2026**
+
+Field Shift is a decision-support tool designed to help farmers explore crop rotation strategies that improve soil health, conserve water, and increase resilience to changing climate conditions.
+
+The tool combines NASA Earth observation data with local soil context, crop characteristics, and farmer priorities to generate clear, comparable rotation recommendations.
+
+---
+
+## Problem
+
+Farmers face increasing uncertainty due to:
+- Shifting temperatures
+- Unreliable rainfall
+- Declining soil health
+- Water stress and extreme weather
+
+Choosing the right crop rotation is critical — but complex. A rotation that improves soil in one region may increase water demand or reduce income in another.
+
+---
+
+## Solution
+
+Field Shift provides an interactive platform where farmers can:
+
+- Select their field location
+- Input their current crop rotation
+- Define priorities (water conservation, soil health, erosion control, nitrogen contribution, income)
+- Compare multiple rotation strategies side-by-side
+- View supporting climate context from NASA POWER data
+
+The tool generates clear explanations for each recommended strategy and highlights the best match based on the farmer’s stated priorities.
+
+---
+
+## Key Features
+
+- Interactive field location map
+- NASA POWER climate data (temperature + rainfall)
+- Priority-based scoring system
+- Side-by-side comparison of rotation strategies
+- Plain-language explanations for each recommendation
+- Farmer-centered design (supports, does not replace, local expertise)
+
+---
+
+## Technology Stack
+
+- **Frontend / App**: Streamlit
+- **Mapping**: Folium + streamlit-folium
+- **Data**: NASA POWER API
+- **Language**: Python
+
+---
+
+## How to Run Locally
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+pip install streamlit folium streamlit-folium requests
